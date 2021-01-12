@@ -1,11 +1,11 @@
-const arrayOfR = ['\r|   ', '\r/   ', '\r-   ', '\r\\   ', '\r|   ', '\r/   ', '\r-   ', '\r\\   ','\r|   ', '\n']
+const arrayOfR = ['\r|   ', '\r/   ', '\r-   ', '\r\\   ', '\r|   ', '\r/   ', '\r-   ', '\r\\   ','\r|   ', '\n'];
 let delay = 0;
 
-for(let i = 0; i < arrayOfR.length; i++) {
-   setTimeout(() => {
+for (let i = 0; i < arrayOfR.length; i++) {
+  setTimeout(() => {
     process.stdout.write(arrayOfR[i]);
-   }, delay)
-   delay += 200
+  }, delay);
+  delay += 200;
 }
 
 
